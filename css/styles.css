@@ -1,0 +1,62 @@
+body {
+    font-family: Verdana;
+}
+
+.container {
+    margin: 10px auto 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+td,
+th {
+    width: 4rem;
+    height: 2rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+th {
+    background: lightskyblue;
+    border-color: white;
+}
+
+body {
+    padding: 1rem;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(91, 116, 185);
+    color: black;
+    margin: 12px;
+}
+
+.small-button {
+    width: 120px;
+    margin-top: 24px;
+    height: 24px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+select {
+    width: 300px;
+    font-size: 20px;
+    padding: 6px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+    display: inline-block;
+    margin-top: 6px;
+}
