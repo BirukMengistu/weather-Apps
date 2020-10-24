@@ -218,7 +218,8 @@ template {
 /* ----- Reset end ----- */
 
 #show-container-waether>div {
-    background-color: #ffffff;
+    background-color: #5481c9;
+    border-radius: 25px;
     margin: 20px;
     padding: 20px;
     font-size: 25px;
@@ -238,10 +239,10 @@ template {
 }
 
 #show-container-waether>div:hover {
-    background-color: #c5ecec;
+    background-color: #a8b2ec;
     font-size: 30px;
     border-radius: 25px;
-    border: 0 none #c5ecec;
+    border: 0 none #5061ff;
 }
 
 #show-container-waether>div>span {
@@ -255,7 +256,7 @@ template {
 
 #show-container-waether {
     display: flex;
-    background-color: rgb(185, 211, 218);
+    background: linear-gradient(rgb(1, 22, 29), rgb(32, 50, 139));
     flex-wrap: wrap;
     width: auto;
 }
