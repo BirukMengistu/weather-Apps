@@ -10,11 +10,11 @@ class View {
             htmldiv += '<div> ';
             console.log(weather.list[i].weather[0].icon)
 
-            htmldiv += '<span> <p>Humdity - ' + weather.list[i].main.humidity + '%   </p>' + '</span>';
+            htmldiv += '<span> <p>Humdity  ' + weather.list[i].main.humidity + '%   </p>' + '</span>';
             htmldiv += '<span> <p>Weather type -  ' + weather.list[i].weather[0].main + '  </p>' + '</span>';
             //htmldiv += '<div id="icon"><img id="wicon" src="img/icons/' + icon + '.png"alt="Weather icon"></div>'
             htmldiv += '<div id="icon"><img id="wicon" src="http://openweathermap.org/img/w/' + icon + '.png"alt="Weather icon"></div>'
-            htmldiv += '<span><p>Temp -' + this.weatherConverter(weather.list[i].main.temp) + '<sup>o </p></span>';
+            htmldiv += '<span><p>Temp  ' + this.weatherConverter(weather.list[i].main.temp) + '<sup>o </p></span>';
             htmldiv += '<span> City ' + weather.list[i].name + '</span></div>';
 
 

@@ -9,8 +9,8 @@ class Controller {
             .then(response => response.json())
             .then(function(data) {
                 WeatherContainer.weather = data;
-                view.init(WeatherContainer.weather)
-                console.log(WeatherContainer.weather);
+                view.init(WeatherContainer.weather) <
+                    console.log(WeatherContainer.weather);
             })
             .catch(error => alert(error))
 
