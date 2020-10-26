@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="controller/WeatherController.js"></script>
+    <script src="js/simple-helper.js"></script>
+    <script src="model/weatherModel.js"></script>
+    <script src="view/weatherView.js"></script>
+    <title>country weather</title>
+    <script>
+        const model = new WeatherModel();
+        const view = new View();
+        const controller = new Controller();
+        const WeatherContainer = {};
+        let locationIcon = document.querySelector('.weather-icon')
+        document.addEventListener('DOMContentLoaded', function() {
+
+
+            //  Helper.onClick('show-container-waether', controller.load);
+            controller.load();
+        });
+    </script>
+</head>
+
+<body>
+    <h2>Weather App's</h2>
+
+    <div id='show-container-waether'>
+        <h2>Weather App's</h2>
+    </div>
+</body>
+
+</html>
